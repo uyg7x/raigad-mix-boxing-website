@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620">
+  <defs>
+    <linearGradient id="bg3" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#050505"/>
+      <stop offset="100%" stop-color="#40240a"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="620" fill="url(#bg3)"/>
+  <g opacity="0.16" stroke="#ffffff">
+    <path d="M0 420 H900" stroke-width="5"/>
+    <path d="M0 460 H900" stroke-width="5"/>
+  </g>
+  <g fill="#ffffff" opacity="0.9">
+    <circle cx="300" cy="210" r="40"/>
+    <path d="M260 270q40-30 80 0l30 88-56 22-22-52-30 108h-48l46-130-40-24z"/>
+    <rect x="350" y="286" width="55" height="24" rx="12"/>
+    <path d="M390 305l132 36q30 8 18 34-8 16-30 16H440z"/>
+  </g>
+  <g fill="#d3d3d3" opacity="0.82">
+    <circle cx="560" cy="230" r="36"/>
+    <path d="M522 278q40-34 78 0l34 92-58 24-18-56-20 90h-46l18-100-26-36z"/>
+    <rect x="456" y="316" width="54" height="24" rx="12"/>
+    <path d="M500 330l-112 104q-18 16-40 4-18-10-8-30l114-116z"/>
+  </g>
+  <text x="50" y="72" fill="#f1c56c" font-size="28" font-family="Arial, Helvetica, sans-serif" letter-spacing="4">AWARDS</text>
+  <text x="50" y="562" fill="#ffffff" font-size="50" font-family="Arial, Helvetica, sans-serif" font-weight="700">Awards Ceremony</text>
+</svg>

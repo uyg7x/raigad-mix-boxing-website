@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 700">
+  <defs>
+    <linearGradient id="bg2" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#090909"/>
+      <stop offset="100%" stop-color="#3e1414"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="700" fill="url(#bg2)"/>
+  <circle cx="300" cy="210" r="82" fill="#d8d8d8"/>
+  <path d="M190 560q36-180 110-180 112 0 110 180z" fill="#d9d9d9"/>
+  <path d="M224 186q32-96 76-96 42 0 76 96-34-28-76-28-44 0-76 28z" fill="#111"/>
+  <circle cx="426" cy="126" r="52" fill="#f0c56d" opacity="0.95"/>
+  <path d="M426 84l11 25 28 2-21 18 7 28-25-14-24 14 6-28-20-18 27-2z" fill="#7d5010"/>
+  <text x="300" y="640" text-anchor="middle" fill="#f0c56d" font-size="28" font-family="Arial, Helvetica, sans-serif" font-weight="700">Youth Champion</text>
+</svg>
