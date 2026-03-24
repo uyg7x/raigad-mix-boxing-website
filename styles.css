@@ -1081,6 +1081,16 @@ textarea:focus {
 @media (max-width: 640px) {
   .content-width { width: min(100% - 20px, 1180px); }
   .site-header, .site-footer { width: calc(100% - 16px); }
+  .site-header { padding: 8px 12px; gap: 10px; }
+  
+  .brand-logo { width: 36px; height: 36px; }
+  .brand-top { font-size: 0.55rem; letter-spacing: 1px; }
+  .brand strong { font-size: 0.8rem; }
+  
+  .site-header.scrolled .brand-logo { width: 32px; height: 32px; }
+  .site-header.scrolled .brand strong { font-size: 0.75rem; }
+  .menu-toggle { width: 42px; height: 42px; padding: 10px; }
+
   .hero-logo { width: 86px; height: 86px; }
   .stats-panel,
   .assoc-grid,
