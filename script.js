@@ -423,3 +423,15 @@ if (sequenceCanvas) {
   }, { passive: true });
 }
 
+/* --- Sticky Header Scroll Animation --- */
+const siteHeader = document.querySelector('.site-header');
+window.addEventListener('scroll', () => {
+  if (siteHeader) {
+    if (window.scrollY > 40) {
+      siteHeader.classList.add('scrolled');
+    } else {
+      siteHeader.classList.remove('scrolled');
+    }
+  }
+}, { passive: true });
+

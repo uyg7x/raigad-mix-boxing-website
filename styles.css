@@ -64,8 +64,10 @@ img { max-width: 100%; display: block; }
 }
 
 .site-header {
-  position: sticky;
+  position: fixed;
   top: 12px;
+  left: 0;
+  right: 0;
   z-index: 50;
   width: min(1260px, calc(100% - 24px));
   margin: 12px auto 0;
@@ -75,7 +77,40 @@ img { max-width: 100%; display: block; }
   justify-content: space-between;
   gap: 20px;
   padding: 14px 18px;
+  transition: all 0.5s cubic-bezier(0.25, 1, 0.5, 1);
 }
+
+.site-header.scrolled {
+  padding: 6px 16px;
+  background: linear-gradient(135deg, rgba(8, 8, 8, 0.95), rgba(15, 10, 10, 0.95));
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.7), inset 0 1px 0 rgba(240, 197, 109, 0.15);
+  border-bottom: 1px solid rgba(240, 197, 109, 0.3);
+  top: 8px;
+  width: min(1000px, calc(100% - 32px));
+  backdrop-filter: blur(25px);
+}
+
+.site-header.scrolled .brand-logo {
+  width: 42px;
+  height: 42px;
+}
+
+.site-header.scrolled .brand-top {
+  display: none;
+}
+
+.site-header.scrolled .brand strong {
+  font-size: 0.95rem;
+}
+
+.brand-logo {
+  transition: width 0.5s ease, height 0.5s ease;
+}
+
+.brand strong {
+  transition: font-size 0.5s ease;
+}
+
 
 .brand {
   display: flex;
