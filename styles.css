@@ -1054,7 +1054,7 @@ textarea:focus {
 
 @media (max-width: 860px) {
   .site-header {
-    align-items: flex-start;
+    align-items: center;
     flex-wrap: wrap;
   }
 
@@ -1085,11 +1085,12 @@ textarea:focus {
   
   .brand-logo { width: 36px; height: 36px; }
   .brand-top { font-size: 0.55rem; letter-spacing: 1px; }
-  .brand strong { font-size: 0.8rem; }
+  .brand strong { font-size: 0.8rem; line-height: 1.2; }
+  .brand { gap: 10px; flex: 1; min-width: 0; }
   
   .site-header.scrolled .brand-logo { width: 32px; height: 32px; }
   .site-header.scrolled .brand strong { font-size: 0.75rem; }
-  .menu-toggle { width: 42px; height: 42px; padding: 10px; }
+  .menu-toggle { width: 42px; height: 42px; padding: 10px; flex-shrink: 0; }
 
   .hero-logo { width: 86px; height: 86px; }
   .stats-panel,
