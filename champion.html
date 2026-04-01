@@ -1,15 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Champion - ASIAN Mix Boxing Association</title>
-  <meta http-equiv="refresh" content="0; url=index.html" />
-  <script>
-    window.location.href = "index.html";
-  </script>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <p>Content moved to <a href="index.html">main page</a></p>
+  <div class="site-shell">
+    <header class="site-header glass">
+      <a href="index.html" class="brand"><img src="assets/logo.jpg" alt="IMBF Logo" class="brand-logo" />
+        <div><span class="brand-top">Official Federation Website</span><strong>ASIAN Mix Boxing Association</strong></div>
+      </a>
+      <button class="menu-toggle" aria-label="Open navigation"><span></span><span></span><span></span></button>
+      <nav class="site-nav">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="organization.html" class="nav-link">Organization</a>
+        <a href="founder.html" class="nav-link">Founder</a>
+        <a href="champion.html" class="nav-link active">Champion</a>
+        <a href="calendar.html" class="nav-link">Calendar</a>
+        <a href="community.html" class="nav-link">Community</a>
+      </nav>
+    </header>
+    <main>
+      <div class="content-width inner-page-heading reveal">
+        <span class="eyebrow">Victory Wall</span>
+        <h2>Champion Showcase</h2>
+        <p>Previous champion highlights presented in a premium sliding showcase.</p>
+      </div>
+      <div class="content-width champion-section reveal">
+        <div class="champion-carousel glass">
+          <button class="carousel-btn" id="champion-prev"></button>
+          <div class="champion-track" id="champion-track">
+            <article class="champion-card">
+              <img src="assets/champion-1.svg" alt="Champion placeholder" />
+              <h3>Athlete One</h3>
+              <p>Year: 2024</p>
+              <p>Category: Senior</p>
+              <p>Title Won: National Gold Medal</p>
+            </article>
+            <article class="champion-card">
+              <img src="assets/champion-2.svg" alt="Champion placeholder" />
+              <h3>Athlete Two</h3>
+              <p>Year: 2023</p>
+              <p>Category: Youth</p>
+              <p>Title Won: Youth Championship</p>
+            </article>
+            <article class="champion-card">
+              <img src="assets/champion-3.svg" alt="Champion placeholder" />
+              <h3>Official Panel</h3>
+              <p>Year: 2022</p>
+              <p>Category: Federation Honor</p>
+              <p>Title Won: Referee Excellence</p>
+            </article>
+            <article class="champion-card">
+              <img src="assets/champion-4.svg" alt="Champion placeholder" />
+              <h3>Athlete Four</h3>
+              <p>Year: 2021</p>
+              <p>Category: Women</p>
+              <p>Title Won: Women Power Champion</p>
+            </article>
+          </div>
+          <button class="carousel-btn" id="champion-next"></button>
+        </div>
+      </div>
+    </main>
+    <footer class="site-footer glass">
+      <div class="footer-brand"><img src="assets/logo.jpg" alt="IMBF Logo" class="footer-logo" />
+        <div><strong>Asian Mix Boxing Association</strong></div>
+      </div>
+      <p class="footer-note">indian mix boxing federation  2023 - All rights reserved</p>
+    </footer>
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>
